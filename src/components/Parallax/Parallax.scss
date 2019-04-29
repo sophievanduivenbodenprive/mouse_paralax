@@ -1,0 +1,66 @@
+@import "../../variables";
+
+.Creatives {
+  background: #333333;
+  position: absolute;
+
+  .block_container {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    .block {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  
+    .block.first {
+      height: 25%;
+      width: 25%;
+
+      .parallax_block_first {
+        height: 100%;
+        width: 100%;
+        background: #CAD164;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  
+    .block.second {
+      height: 50%;
+      width: 50%;
+      background: #94BA61;
+
+      .parallax_block_second {
+        height: 100%;
+        width: 100%;
+        background: #94BA61;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  
+    .block.third {
+      height: 75%;
+      width: 75%;
+      background: #6F8866;
+
+      .parallax_block_third{
+        height: 100%;
+        width: 100%;
+        background: #6F8866;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+}
