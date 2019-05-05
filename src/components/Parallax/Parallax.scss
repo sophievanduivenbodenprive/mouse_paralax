@@ -20,13 +20,13 @@
     }
   
     .block.first {
-      height: 25%;
-      width: 25%;
+      height: 10%;
+      width: 10%;
 
       .parallax_block_first {
         height: 100%;
         width: 100%;
-        background: #CAD164;
+        background: #adfff1;
         position: absolute;
         top: 0;
         left: 0;
@@ -34,14 +34,13 @@
     }
   
     .block.second {
-      height: 50%;
-      width: 50%;
-      background: #94BA61;
+      height: 20%;
+      width: 20%;
 
       .parallax_block_second {
         height: 100%;
         width: 100%;
-        background: #94BA61;
+        background: #19ffd6;
         position: absolute;
         top: 0;
         left: 0;
@@ -49,14 +48,41 @@
     }
   
     .block.third {
-      height: 75%;
-      width: 75%;
-      background: #6F8866;
+      height: 30%;
+      width: 30%;
 
       .parallax_block_third{
         height: 100%;
         width: 100%;
-        background: #6F8866;
+        background: #00c8a5;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    .block.fourth{
+      height: 40%;
+      width: 40%;
+
+      .parallax_block_fourth{
+        height: 100%;
+        width: 100%;
+        background: #00a084;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    .block.fifth {
+      height: 50%;
+      width: 50%;
+
+      .parallax_block_fifth{
+        height: 100%;
+        width: 100%;
+        background: #007863;
         position: absolute;
         top: 0;
         left: 0;
