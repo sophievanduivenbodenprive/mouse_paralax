@@ -1,4 +1,7 @@
 This is a small snippet that I use for my portfolio page [Sophie van Duivenboden](http://www.sophievanduivenboden.nl/).
+It's a small interaction snippet where the different squares will follow the cursor. 
+
+I hope you enjoy it!
 Feel free to download and use!
 
 To be able to use it: <br>
